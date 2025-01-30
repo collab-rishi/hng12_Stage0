@@ -1,16 +1,17 @@
 # API
 
-A public API using NodeJS and Express that returns basic information like email, current date and time and github URL to the project repository.
+A simple public REST API using NodeJS and Express that returns basic information like email, current date and time and github URL to the project repository.
 
 ## How to run the project locally
 
-To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-Follow these prerequisites to get your local copy all set up.
+Before you begin, make sure you have the following prerequisites installed on your system:
 
-#### Local setup
+- Node.js and npm: Download and install Node.js from [nodejs.org](https://nodejs.org/).
+
+#### Installation
 
 - install required packages using npm
 
@@ -18,28 +19,46 @@ Follow these prerequisites to get your local copy all set up.
 npm install express cors
 ```
 
+
+#### Local Development setup
+
+Clone the repository: 
+````sh
+   `git clone https://github.com/collab-rishi/hng12_Stage0.git`
+````
+
+
+Install dependencies
+
+```sh
+npm install express cors
+```
+
+#### Start the Project
+
 - run the index file
 
 ```sh
 node index.js
 ```
+Your backend server should now be running.
 
 
-### Installation
 
-1. Clone the repo to your local machine
+## API Documentation
 
-```sh
-git clone https://github.com/collab-rishi/hng12_Stage0
-```
+### Endpoint
+Production: GET/ https://hng12-stage0.vercel.app/
+Local: GET/ http://localhost:3000
+
+### Base URL
+The API will be running at:
+Production: https://hng12-stage0.vercel.app/
+Local: http://localhost:3000
 
 
-## API Endpoint
 
-- **GET** `/`
-
-
-### Response Format (200 OK)
+### Example Response
 
 ````json
 {
