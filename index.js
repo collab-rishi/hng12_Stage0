@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.get("/", (req, res) => {
+app.get("/api", (req, res) => {
 
     const email = "kumarrishi9862@gmail.com";
     let currentDateTime = new Date().toISOString();
