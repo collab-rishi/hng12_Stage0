@@ -30,7 +30,7 @@ node index.js
 1. Clone the repo to your local machine
 
 ```sh
-git clone https://github.com/yourusername/your-repo
+git clone https://github.com/collab-rishi/hng12_Stage0
 ```
 
 
@@ -45,7 +45,7 @@ git clone https://github.com/yourusername/your-repo
 {
    "email": "your-email@example.com",
    "current_datetime": "2025-01-30T09:30:00Z",
-   "github_url": "https://github.com/yourusername/your-repo"
+   "github_url": "https://github.com/collab-rishi/hng12_Stage0"
 }
 ````
 
